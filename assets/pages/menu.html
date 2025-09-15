@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Trabajo Practico | Home</title>
+    <title>Document</title>
 
     <!-- enlace al css de bootstrap -->
     
@@ -20,32 +19,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Keyboard&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- enlace personalizado de css -->
 
-    <link rel="stylesheet" href="./sass/main.css">
-
+    <link rel="stylesheet" href="../../sass/main.css">
 </head>
 <body>
-    
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
-    <img src="assets/logo/logo.png" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
+    <img src="../logo/logo.png" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav justify-content-center mx-auto mb-2 mb-lg-0">
         <li class="nav-item mx-3">
-          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          <a class="nav-link" aria-current="page" href="../../index.html">INICIO</a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link" href="assets/pages/conocenos.html">CONOCENOS</a>
+          <a class="nav-link" href="conocenos.html">CONOCENOS</a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link" href="assets/pages/menu.html">MENÚ</a>
+          <a class="nav-link active" href="#">MENÚ</a>
         </li>
           
         <li class="nav-item mx-3">
-          <a class="nav-link" href="assets/pages/contacto.html">CONTACTO</a>
+          <a class="nav-link" href="contacto.html">CONTACTO</a>
         </li>
 
         
@@ -56,11 +55,11 @@
       <div class="ms-auto d-flex align-items-center">
 
 
-            <a class="boton nav-link mx-4 " href="assets/pages/delivery.html">DELIVERY</a>
+            <a class="boton nav-link mx-4 " href="delivery.html">DELIVERY</a>
             
             
             <a class="navbar-brand " href="#">
-                <img src="assets/redes/ig-navbar.png" alt="ig" width="50" height="45">
+                <img src="../redes/ig-navbar.png" alt="ig" width="50" height="45">
             </a>
  
            
@@ -68,63 +67,73 @@
     </div>
   </div>
 </nav>
+    
 
 
 <header>
-    <div class="contenido">
-        <h1>PARADISE PIZZA</h1>
-        <h4>Sabores autenticos, pasión en cada porción</h4>
-        
+    <div class="contenido-menu">
+        <h1>MENÚ</h1>
+
     </div>
-    <h4 >Desde 1989, en Pizza Paradise, hemos estado creando pizzas auténticas con pasión y dedicación.!</h4>
-    <p> Utilizamos solo los mejores ingredientes para ofrecerte una experiencia culinaria inigualable. Ven y descubre el sabor que nos hace únicos. ¡Bienvenidos al paraíso de las pizzas</p>
+    <div class="buscador">
+        <form class="d-flex align-items-center m-5" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        
+      </form>
+    </div>
+    
 </header>
 
-<div class="debajo-header">
-  <h3 class="mt-5 text-center">¡Sumate a nuestra comunidad!</h3>
-  <img src="assets/redes/insta-community.png" alt="" width="60" height="55" class="d-block mx-auto mb-5">
+<section>
+    <div class="info-menu align-items-center d-flex flex-column">
 
-</div>
+        <div class="info" style="width: 75%;">
+           
+            <h2>Pizzas</h2>
+            <div class="detalles mb-5">
+                
 
-<div class="tarjetas my-5">
+                <ol>
 
-    <div class="row d-flex justify-content-center">
+                    
+                    <li>Pizza Margarita - $10.99 <br> Mozzarella fresca, tomate y albahaca.</li>
+                        
+                    <li>Pizza Pepperoni - $12.99 <br> Pepperoni, mozzarella y salsa de tomate.</li> 
 
-        <div class="card mx-5 col-sm-12" style="width: 18rem;">
-        <img src="assets/img/nik-owens-40OJLYVWeeM-unsplash.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Pizzeria</h5>
-            <p class="card-text">El lugar donde la tradición italiana se encuentra con los sabores más auténticos. ¡Disfruta de nuestras pizzas artesanales y vive una experiencia única en cada bocado!</p>
-            
-        </div>
+                    <li>Pizza Vegetariana - $11.99 <br> Variedad de vegetales frescos y mozzarella.</li>
+
+                    <li>Pizza Prosciutto e Funghi - $13.99 <br> Jamón prosciutto, champiñones y mozzarella.</li>
+
+                    <li>Pizza Quattro Stagioni - $14.99 <br> Jamón, alcachofas, champiñones, aceitunas y mozzarella.</li>
+
+                </ol>    
+                
+            </div>
+            <h2>Entradas</h2>
+            <div class="detalles mb-5">
+                
+                <ol>
+                    <li>Bruschettas-$5.99 <br> Bruschettas tradicionales con tomate fresco y albahaca.</li>
+
+                    <li>Ensalada Caprese-$7.99 <br> Mozzarella fresca, tomate y albahaca con aceite de oliva. </li>
+                </ol>
+
+            </div>
+
+            <h2>Pasta</h2>
+            <div class="detalles mb-5">
+                <ol>
+                    <li>Pasta Carbonara-$13.99 <br> Pasta al dente con salsa de huevo, panceta, queso parmesano y pimienta negra.</li>
+                    <li>Pasta Bolognesa-$12.99 <br> Pasta al dente con salsa de carne picada en tomate y cebolla.</li>
+                </ol>
+
+
+            </div>
         </div>
 
-        <div class="card mx-5 col-sm-12" style="width: 18rem;">
-        <img src="./assets/img/conocenos-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Restaurante</h5>
-            <p class="card-text">Donde cada plato es una obra maestra. Descubre nuestro menú variado y disfruta de una comida excepcional en un ambiente acogedor y familiar.</p>
-            
-        </div>
-        </div>
-
-        <div class="card mx-5 col-sm-12" style="width: 18rem;">
-        <img src="assets/img/conocenos-4.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Cafeteria</h5>
-            <p class="card-text">Déjate seducir por el aroma del café y delicias frescas. Nuestra cafetería es el lugar perfecto para empezar tu día o relajarte en cualquier momento.</p>
-            
-        </div>
-        </div>
     </div>
 
-
-    
-</div>
-
-
-
-
+</section>
 
 
 
@@ -132,8 +141,8 @@
 <div class="titulos text-center py-5" >
     <div class="row">
     
-        <div class="ubi col-lg-4">
-          <img src="assets/logo/logo2.png" alt="" width="100" height="100">
+        <div class="ubi  col-lg-4">
+          <img src="../logo/logo2.png" alt="" width="100" height="100">
             
             <h4>Vení a nuestra sucursal principal de Pizza Paradise</h4>
     
@@ -160,6 +169,9 @@
 
             <a class="boton" href="">HACE TU PEDIDO</a>
         </div>
+        <div class="redes d-flex justify-content-end align-items-center  col-lg-10 mt-3">
+            <img src="../redes/ig-footer.png" alt="" >
+        </div>
     </div>    
 
 
@@ -169,10 +181,7 @@
 
 </footer>
 
-
-
-
-    <!-- enlace js de bootstrap -->
+     <!-- enlace js de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

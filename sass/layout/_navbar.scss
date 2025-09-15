@@ -1,0 +1,37 @@
+.navbar{
+
+    display: flex;
+
+    ul{
+
+        .nav-item{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            transition: all .5s;
+    
+            .nav-link {
+                    padding: 0.5rem 1.2rem;
+                    transition: all .5s;
+                
+                
+                    &:hover{
+                        transform: scale(1.1);
+                        background-color: $rojo;
+                        transform: scale(1.1);
+                    }
+            }
+        }
+    }
+
+    .boton{
+        background-color: $rojo;
+        color: $blanco;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+
+        @include mobile{
+            float: right;
+        }
+    }
+}

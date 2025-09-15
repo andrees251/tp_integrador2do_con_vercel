@@ -1,0 +1,78 @@
+footer{
+    background-color: $color-footer;
+    color: $blanco;
+    margin-top: 3%;
+    padding:0 6%;
+    padding-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    @include mobile{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        gap: 2rem; 
+    }
+    
+
+    .titulos{
+        
+        @include mobile{
+            text-align: center;
+        }
+
+        img{
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        h2{
+            font-size: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        h4{
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        .ubi{
+            
+            padding-right: 4rem;
+
+            @include mobile{
+                padding: 0;
+                margin-top: 1rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .celu{
+            padding-left: 4rem;
+
+            @include mobile{
+                padding: 0;
+                margin-top: 1rem;
+            }
+          
+        }
+
+        .boton{
+             background-color: $rojo;
+             color: $blanco;
+             padding: 0.5rem 1.5rem;
+             border-radius: 20px;
+             display: inline-block;
+             margin-top: 5rem; 
+             text-decoration: none;
+             
+             @include mobile{
+                margin-top: 3rem;
+             }
+        }
+    }
+}
+
