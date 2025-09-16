@@ -33,6 +33,16 @@ header{
                 font-size: 1rem;
             }
         }
+
+        .botoncito{
+            position: fixed;
+            display: block;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+        }
+        
     }
 
     h4{
@@ -76,6 +86,14 @@ header{
             font-size: 1.5rem;
         }
 
+        .botoncito{
+            position: fixed;
+            display: block;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+        }
         
     }
     
@@ -99,6 +117,15 @@ header{
                 color: $blanco;
                 font-size: 4rem;
             }
+
+             .botoncito{
+            position: fixed;
+            display: block;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+        }
     }
     
     .buscador{
@@ -135,6 +162,15 @@ header{
             font-size: 4rem;
         }
 
+         .botoncito{
+            position: fixed;
+            display: block;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+        }
+        
     }
 
     .subtitulo{
@@ -180,5 +216,13 @@ header{
         }
      
 
+        .botoncito{
+            position: fixed;
+            display: block;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            display: block;
+        }
     }
 }

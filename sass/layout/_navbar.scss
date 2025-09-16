@@ -1,6 +1,7 @@
 .navbar{
 
     display: flex;
+    z-index: 1;
 
     ul{
 
@@ -32,6 +33,18 @@
 
         @include mobile{
             display: none;
+        }
+    }
+
+    .boton-mobile{
+       background-color: $rojo;
+        color: $blanco;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+        display: none;
+
+        @include mobile{
+          display: inline-block;
         }
     }
 
