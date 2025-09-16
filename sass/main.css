@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +22,8 @@ body .btn-toggle {
   transition: background 0.3s, color 0.3s;
 }
 
-body .dark-mode {
-  background-color: #121212;
+body.dark-mode {
+  background-color: #1a1a1a;
   color: #ffffff;
 }
 
@@ -54,6 +55,21 @@ body .dark-mode {
   .navbar .boton {
     display: none;
   }
+}
+
+body.dark-mode .navbar {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+body.dark-mode .navbar .nav-link {
+  color: #fff;
+}
+body.dark-mode .navbar .nav-link:hover {
+  background-color: #d40000;
+}
+body.dark-mode .navbar .boton {
+  background-color: #fff;
+  color: #A10000;
 }
 
 header .contenido {
@@ -244,6 +260,14 @@ header .contenido-delivery h1 {
   margin-top: 1rem;
 }
 
+body.dark-mode .tarjetas .card {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+body.dark-mode .tarjetas .card h5, body.dark-mode .tarjetas .card p {
+  color: #fff;
+}
+
 .tarjetas-con {
   display: flex;
   justify-content: center;
@@ -321,6 +345,16 @@ header .contenido-delivery h1 {
   }
 }
 
+/* 🔥 Modo oscuro */
+body.dark-mode .tarjetas-con .card {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+body.dark-mode .tarjetas-con .card .card-text,
+body.dark-mode .tarjetas-con .card .card-body {
+  color: #fff;
+}
+
 section .info-menu {
   display: flex;
   flex-direction: column;
@@ -382,6 +416,33 @@ section .formulario {
 section .formulario .btn {
   border-radius: unset;
   margin: 0.2rem;
+}
+
+body.dark-mode section .formulario {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+body.dark-mode section .formulario label,
+body.dark-mode section .formulario input,
+body.dark-mode section .formulario textarea,
+body.dark-mode section .formulario select {
+  color: #fff;
+  background-color: #1a1a1a;
+}
+body.dark-mode section .formulario input::-moz-placeholder, body.dark-mode section .formulario textarea::-moz-placeholder {
+  color: #aaa;
+}
+body.dark-mode section .formulario input::placeholder,
+body.dark-mode section .formulario textarea::placeholder {
+  color: #aaa;
+}
+body.dark-mode section .formulario .btn {
+  background-color: #fff;
+  color: #111;
+  border: none;
+}
+body.dark-mode section .formulario .btn:hover {
+  background-color: #ddd;
 }
 
 footer {

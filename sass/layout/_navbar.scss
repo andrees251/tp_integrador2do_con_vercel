@@ -35,6 +35,27 @@
         }
     }
 
+
+}
+
+body.dark-mode {
+  .navbar {
+    background-color: #1a1a1a; // Fondo oscuro
+    color: $blanco;
+
+    .nav-link {
+      color: $blanco;
+
+      &:hover {
+        background-color: lighten($rojo, 10%); // un rojo más suave en hover
+      }
+    }
+
+    .boton {
+      background-color: $blanco;
+      color: $rojo;
+    }
+  }
 }
 
 

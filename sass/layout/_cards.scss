@@ -51,6 +51,19 @@
     }
 }
 
+body.dark-mode {
+  .tarjetas {
+    .card {
+      background-color: #1a1a1a; // Fondo oscuro
+      color: #fff;            // Texto claro
+
+      h5, p {
+        color: #fff;          // Asegura que títulos y párrafos sean blancos
+      }
+    }
+  }
+}
+
 .tarjetas-con{
     display: flex;
     justify-content: center;
@@ -145,6 +158,21 @@
 
 }
 
+/* 🔥 Modo oscuro */
+body.dark-mode {
+  .tarjetas-con {
+    .card {
+      background-color: #1a1a1a; // Fondo oscuro
+      color: #fff;            // Texto claro
+
+      .card-text,
+      .card-body {
+        color: #fff; // Asegura que el contenido textual sea blanco
+      }
+    }
+  }
+}
+
 section{
     
 
@@ -236,4 +264,38 @@ section{
         }
 
     }
+}
+
+
+body.dark-mode {
+  section {
+    .formulario {
+      background-color: #1a1a1a; // Fondo oscuro
+      color: #fff;            // Texto claro
+
+      label,
+      input,
+      textarea,
+      select {
+        color: #fff;               // Texto en blanco
+        background-color: #1a1a1a;    // Fondo oscuro para inputs
+        
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: #aaa; // Placeholders más claros
+      }
+
+      .btn {
+        background-color: #fff;
+        color: #111;
+        border: none;
+
+        &:hover {
+          background-color: #ddd;
+        }
+      }
+    }
+  }
 }
