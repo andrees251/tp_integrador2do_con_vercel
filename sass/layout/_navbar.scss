@@ -31,7 +31,13 @@
         border-radius: 20px;
 
         @include mobile{
-            float: right;
+            display: none;
         }
     }
+
 }
+
+
+
+
+
