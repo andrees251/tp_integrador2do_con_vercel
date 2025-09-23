@@ -92,7 +92,7 @@
   
   <div class="container">
     
-    <form>
+    <form  name="contact" method="post" netlify>
       <div class="row justify-content-center">
         <div class="col-lg-8">
 
@@ -100,22 +100,22 @@
           
           <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">* Nombre</label>
-          <input class="form-control" type="text">
+          <input class="form-control" type="text" name="nombre">
           </div>
 
           <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">* Telefono</label>
-          <input class="form-control" type="number">
+          <input class="form-control" type="number" name="telefono">
           </div>
 
           <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">* Dirección de entrega</label>
-          <input class="form-control" type="text">
+          <input class="form-control" type="text" name="direccion">
           </div>
 
           <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensaje para el delivery</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deja alguna especificación sobre la casa"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" rows="3" placeholder="Deja alguna especificación sobre la casa"></textarea>
           </div>
 
           <button type="submit" class="btn btn-success">Enviar</button>
