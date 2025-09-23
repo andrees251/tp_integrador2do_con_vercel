@@ -22,6 +22,16 @@ body{
     transition: background 0.3s, color 0.3s;
     }
 
+        .boton{
+        background-color: $rojo;
+        color: $blanco;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+
 }
 
 

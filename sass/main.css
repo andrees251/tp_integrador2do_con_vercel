@@ -21,6 +21,14 @@ body .btn-toggle {
   color: #000;
   transition: background 0.3s, color 0.3s;
 }
+body .boton {
+  background-color: #A10000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
 
 body.dark-mode {
   background-color: #1a1a1a;
